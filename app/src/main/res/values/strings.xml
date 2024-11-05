@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">RestaurantProject</string>
+    <string name="btn_moveHome">Goto Home</string>
+    <string name="item_name" />
+    <string name="item_Desc" />
+    <string name="item_price" />
+    <string name="homeHeaderName">Special Offers</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_meals">Meals</string>
+    <string name="menu_promos">Promotion</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_myorders">My Orders</string>
+
+    <string name="menu_signin">Sign In</string>
+    <string name="menu_signup">Sign Up</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="promotions">Promotions</string>
+    <string name="drinks">Drinks</string>
+    <string name="burgers">Burgers</string>
+    <string name="submarians">Submarians</string>
+    <string name="sandwiches">Sandwiches</string>
+    <string name="icecream">Icecream</string>
+    <string name="add_promo">Add promotions</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="image">Image</string>
+    <string name="price">Price</string>
+    <string name="Discount" />
+    <string name="discount">Discount</string>
+    <string name="add">ADD</string>
+    <string name="show">Show</string>
+
+    <string name="id">Id</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="foodTitle">Title</string>
+    <string name="foodDetails_desc">Description</string>
+    <string name="foodDetails_price">Price</string>
+    <string name="cartItem_foodName">food name</string>
+    <string name="cartItem_foodCat">Category</string>
+    <string name="cartItem_foodPrice">Price</string>
+    <string name="cartItem_foodQty">Qty</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/homeSearch"
+    android:layout_margin="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="10dp"
+        app:cardMaxElevation="2dp"
+        app:cardElevation="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/itemImage"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemImage"
+                android:autoSizeTextType="uniform"
+                android:paddingLeft="10dp"
+                android:text="@string/item_name"
+                android:textStyle="bold"
+                tools:text="Item" />
+
+            <TextView
+                android:id="@+id/itemDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemName"
+                android:paddingLeft="10dp"
+                android:text="@string/item_Desc"
+                tools:text="Description" />
+
+            <TextView
+                android:id="@+id/itemPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemDesc"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:text="@string/item_price"
+                android:textStyle="bold"
+                tools:text="Price" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
